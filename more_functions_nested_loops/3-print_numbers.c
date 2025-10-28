@@ -13,8 +13,8 @@ void print_numbers(void)
 
 	while (c <= 9)
 	{
-		putchar(c + '0');
+		_putchar(c + '0');
 		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
