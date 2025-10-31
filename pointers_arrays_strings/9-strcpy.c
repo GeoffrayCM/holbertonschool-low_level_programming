@@ -6,6 +6,7 @@
  * @src: source
  * Return: dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
@@ -15,6 +16,5 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
-	dest = '\0';
 	return (dest);
 }
