@@ -8,7 +8,8 @@
  */
 int _atoi(char *s)
 {
-	int i = 0, sign = 1, num = 0;
+	int i = 0, sign = 1;
+		unsigned int num = 0;
 	int found_digit = 0;
 
 	/* Parcourir les caractères */
