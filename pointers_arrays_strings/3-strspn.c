@@ -1,29 +1,27 @@
 #include "main.h"
 
-/**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (success)
- */
+/** 
+* _strspn - n bytes from accept in s,
+* @s: main string,
+* @accept: bytes to find,
+* Return: lenght of bytes found
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, n, value, check;
+    int i = 0;
+    int j = 0;
 
-	value = 0;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		check = 0;
-
-		for (n = 0; accept[n] != '\0'; n++)
-		{
-			if (accept[n] == s[i])
-			{
-				value++;
-				check = 1;
-			}
-		}
-	}
+    while (s[i])
+    {
+        j = 0;
+        while (accept[j] != s[i])
+        {
+            if (accept[j] == '\0')
+                return (i);
+            j++;
+        }
+        i++;
+    }
+    return (i);
 }
