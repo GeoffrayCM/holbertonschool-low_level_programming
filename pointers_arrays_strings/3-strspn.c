@@ -2,8 +2,8 @@
 
 /**
  * _strspn - Entry point
- * @s: The string to be searched
- * @accept: The bytes that are accepted as valid in the prefix segment
+ * @s: input
+ * @accept: input
  * Return: Always 0 (success)
  */
 
