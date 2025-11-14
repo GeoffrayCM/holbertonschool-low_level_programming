@@ -3,8 +3,8 @@
 #include "dog.h"
 
 /**
- * _strlen - lenght of string,
- * @s: lenght*,
+ * _strlen - lenght of string
+ * @s: lenght
  * Return: lenght of string
  */
 
@@ -18,13 +18,13 @@ int _strlen(char *s)
 }
 
 /**
- * _strcpy - copy src to dst,
- * @dest: string receiving copy,
- * @src: string to copy from,
+ * _strcpy - copy src to dst
+ * @dest: string receiving copy
+ * @src: string to copy from
  * Return: pointer to dest
  */
 
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
@@ -38,10 +38,10 @@ char _strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - create a copy of newdog,
- * @name: member,
- * @age: member,
- * @owner: member,
+ * new_dog - create a copy of newdog
+ * @name: member
+ * @age: member
+ * @owner: member
  * Return: copy
  */
 
