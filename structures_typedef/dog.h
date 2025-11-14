@@ -1,6 +1,6 @@
 #ifndef _HEADER_
 #define _HEADER_
-#typedef struct dog dog_t;
+typedef struct dog dog_t;
 /**
  * struct dog -Dog attributes.
  * @name: The name of the dog.
